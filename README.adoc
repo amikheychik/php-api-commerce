@@ -1,0 +1,23 @@
+= xTuple Commerce API client
+
+Library to interact with xTuple Commerce REST API.
+
+== Documentation
+
+http://asciidoctor.org[ASCIIDoc] is used for documentation. To generate documentation run:
+
+[source,bash]
+----
+asciidoctor --backend html5 --doctype book --destination-dir target/docs docs/index.adoc
+----
+
+Documentation will be located in `target/docs`
+
+== Testing
+
+[source,bash]
+----
+phpunit --coverage-html target/coverage/html
+----
+
+Code coverage report will be available in `target/coverage/html`
